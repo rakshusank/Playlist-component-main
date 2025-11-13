@@ -81,3 +81,8 @@ the following form: YYYY.0M.0D.
 
 ### Added
 Designed proof of concept for the playlist component
+
+##[2025.10.22]
+
+### Added
+- Created PlaylistKernel and Playlist interfaces for the playlist component
