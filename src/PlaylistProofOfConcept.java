@@ -1,14 +1,12 @@
-import javax.sound.mi d
-    
 
-    private Sequence< S
-        
-    p
+private Sequence<String>songs;
+public PlaylistProofOfConcept() {
+    this.songs = new Sequence1L<String>();
 
-    } 
+    }
 
-    /** adds songs to the playlist*/ 
-        
+    /** adds songs to the playlist*/
+
     public void addSong(String song){
     this.songs.add(this.songs.length(), song);
   }
@@ -16,7 +14,7 @@ import javax.sound.mi d
   /** removes song from the playlist*/
 
   public String removeSong(){
-   
+
 
 }
 
@@ -26,6 +24,3 @@ import javax.sound.mi d
 return this.songs.length();
 
     /** check for empty playlist*/
-
-
-
